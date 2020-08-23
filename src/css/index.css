@@ -1,3 +1,4 @@
+/* HEADER */
 header {
     background-color: #ff4f81;
     color: white;
@@ -20,3 +21,51 @@ header {
     border: 1px solid white;
     background-color: #ff4f81;
 }
+
+.navbar-brand--logo p {
+    color: #ff4f81;
+    font-size: 0.8em;
+    margin-top: -5px;
+}
+
+
+/* NAVBAR  */
+
+.navbar-brand h1 {
+    color: #282828;
+}
+
+.navbar-nav--menu .nav-item .nav-link {
+    font-weight: bold;
+    color: #282828;
+    transition: all 0.3s;
+}
+
+.navbar-nav--menu .nav-item {
+    margin-left: 20px;
+}
+
+.nav-item .nav-item__line {
+    width: 0%;
+    height: 2px;
+    background-color: #ff4f81;
+    transition: all 0.3s;
+}
+
+.navbar-nav--menu .active .nav-link{
+    color: #ff4f81 !important;
+}
+
+.navbar-nav--menu .active .nav-item__line {
+    width: 100%
+}
+
+
+.navbar-nav--menu .nav-item:hover .nav-link{
+    color: #ff4f81;
+}
+
+.navbar-nav--menu .nav-item:hover .nav-item__line {
+    width: 100%;
+}
+
