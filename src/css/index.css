@@ -1,0 +1,22 @@
+header {
+    background-color: #ff4f81;
+    color: white;
+}
+
+.header-left i {
+    padding-right: 4px;
+}
+
+.header-right i {
+    font-size: 14px;
+    padding: 8px 10px;
+    background-color: #333333;
+    border: 1px solid transparent;
+    margin-left: 3px;
+    transition: all 0.3s;
+}
+
+.header-right i:hover {
+    border: 1px solid white;
+    background-color: #ff4f81;
+}
