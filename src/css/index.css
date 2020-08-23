@@ -73,6 +73,36 @@ header {
     width: 100%;
 }
 
+
+/* CAROUSEL */
+
+.carousel-indicators--config {
+    bottom: 20%;
+}
+
+.carousel-caption--config {
+    bottom: 30%;
+}
+
+.btn--read-more {
+    border-radius: 0px;
+    transition: all 0.3s;
+}
+
+.btn--read-more:hover {
+    color: white;
+    background-color: #ff4f81;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-brand--logo h1 {
         font-size: 30px;
@@ -86,3 +116,4 @@ header {
         margin-left: 10px;
     }
 }
+
