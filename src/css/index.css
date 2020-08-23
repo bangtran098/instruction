@@ -84,9 +84,14 @@ header {
     bottom: 30%;
 }
 
+.carousel-item .img-fluid--config {
+    width: 100%;
+}
+
 .btn--read-more {
     border-radius: 0px;
     transition: all 0.3s;
+    margin-top: 10px;
 }
 
 .btn--read-more:hover {
@@ -94,9 +99,28 @@ header {
     background-color: #ff4f81;
 }
 
+.carousel-caption--config h1 {
+    font-size: 3.3em;
+    font-weight: normal;
+}
 
+.carousel-caption--config p {
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    line-height: 1.3em;
+}
 
+/* MODAL CAROUSEL */
+.modal-header--carousel h1 {
+    color: #ff4f81;
+}
 
+.modal-body--carousel p {
+    margin-top: 10px;
+    word-spacing: 3px;
+    line-height: 25px;
+    color: #5f5a5a;
+}
 
 
 
