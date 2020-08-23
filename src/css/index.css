@@ -92,6 +92,7 @@ header {
     border-radius: 0px;
     transition: all 0.3s;
     margin-top: 10px;
+    outline: none;
 }
 
 .btn--read-more:hover {
@@ -126,7 +127,7 @@ header {
 
 /* MEDIA QUERY */
 
-
+/* NAVBAR */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-brand--logo h1 {
         font-size: 30px;
@@ -141,3 +142,71 @@ header {
     }
 }
 
+/* CAROUSEL */
+
+@media screen and (max-width: 576px) {
+    .carousel-indicators--config {
+        bottom: 0%;
+    }
+    
+    .carousel-caption--config {
+        bottom: 20%;
+    }
+
+    .carousel-caption--config h1 {
+        font-size: 2em;
+        font-weight: normal;
+    }
+    
+    .carousel-caption--config p {
+        font-size: 0.8em;
+        letter-spacing: 3px;
+        line-height: 1.3em;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width: 768px) {
+    .carousel-indicators--config {
+        bottom: 10%;
+    }
+    
+    .carousel-caption--config {
+        bottom: 30%;
+    }
+
+    .carousel-caption--config h1 {
+        font-size: 2.5em;
+        font-weight: normal;
+    }
+    
+    .carousel-caption--config p {
+        font-size: 0.8em;
+        letter-spacing: 3px;
+        line-height: 1.3em;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 834px) {
+    .carousel-indicators--config {
+        bottom: 10%;
+    }
+    
+    .carousel-caption--config {
+        bottom: 30%;
+    }
+
+    .carousel-caption--config h1 {
+        font-size: 3em;
+        font-weight: normal;
+    }
+    
+    .carousel-caption--config p {
+        font-size: 0.8em;
+        letter-spacing: 3px;
+        line-height: 1.3em;
+        margin-bottom: 20px;
+    }
+
+}
