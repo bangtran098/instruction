@@ -1,0 +1,25 @@
+{
+  "name": "chap6-instruction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bangtran098/instruction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bangtran098/instruction/issues"
+  },
+  "homepage": "https://github.com/bangtran098/instruction#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
