@@ -234,10 +234,62 @@ header {
     font-weight: bold;
 }
 
-/* .star-title__line {
-    background-color: white;
-    height: 2px;
-} */
+
+/* OFFER SECTION */
+
+.offer-section {
+    padding: 3rem 15px;
+}
+
+.offer-title h1{
+    color: #ff4f81;
+    font-size: 40px;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.offer-title span {
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: black;
+}
+
+.offer-item {
+    -webkit-box-shadow: 0px 0px 4px 1px #aaa;
+    -moz-box-shadow: 0px 0px 4px 1px #aaa;
+    -o-box-shadow: 0px 0px 4px 1px #aaa;
+
+    box-shadow: 0 0 10px #aaa;
+    padding: 2rem 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.offer-item i {
+    font-size: 40px;
+    color: #ff4f81;
+}
+
+.offer-item h2 {
+    font-size: 20px;
+    color: #212121;
+    margin: 20px 0;
+}
+
+.offer-item p {
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERY */
 
 /* NAVBAR */
@@ -297,6 +349,8 @@ header {
         padding: 0 5%;
     }
 }
+
+
 
 /* SM */
 
