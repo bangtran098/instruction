@@ -159,6 +159,30 @@ header {
     padding: 0 10px;
 }
 
+/* CARD */
+
+.education-course i {
+    font-size: 30px;
+}
+
+.education-course h2 {
+    color: #ff4f81;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.education-course h3 {
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.education-course p {
+    font-size: 15px;
+    color: #999;
+    line-height: 1.8em;
+}
+
 /* MEDIA QUERY */
 
 /* NAVBAR */
