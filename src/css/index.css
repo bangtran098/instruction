@@ -145,7 +145,7 @@ header {
     color:black;
 }
 
-.welcome-title .welcome-title__line {
+.welcome-title__line {
     width: 150px;
     height: 2px;
     background-color: black;
@@ -183,6 +183,41 @@ header {
     line-height: 1.8em;
 }
 
+
+/* OUR STAr */
+
+.star-section {
+    height: 400px;
+    background-image: url("../images/banner2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 3rem 15px;
+}
+
+.star-title h1 {
+    color: #ff4f81;
+    font-size: 40px;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.star-title span {
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color:white;
+
+}
+
+.star-title .welcome-title__line  {
+    background-color: white;
+}
+
+/* .star-title__line {
+    background-color: white;
+    height: 2px;
+} */
 /* MEDIA QUERY */
 
 /* NAVBAR */
@@ -234,7 +269,7 @@ header {
         letter-spacing: 2px;
     }
 
-    .welcome-title .welcome-title__line {
+    .welcome-title__line {
         width: 80px;
     }
 
