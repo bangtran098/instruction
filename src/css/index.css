@@ -315,7 +315,6 @@ header {
 }
 
 .testimonials-slider {
-    height: 300px;
     background-color: rgba(0, 0, 0, 0.47);
     -webkit-box-shadow: 0px 0px 2px 1px #8e8e8e;
     -moz-box-shadow: 0px 0px 2px 1px #8e8e8e;
@@ -324,14 +323,62 @@ header {
     box-shadow: 0px 0px 2px 1px #8e8e8e;
 }
 
+.item__box {
+    background-color: rgba(0, 0, 0, 0.57);
+    padding: 10px 20px;
+    color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.item__box::after {
+    content: "";
+    border-top: 9px solid rgba(0,0,0,0.57);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    bottom: -9px;
+    left: 27%;
+}
+
+.item__user {
+    margin-left: 27%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    color: white;
+}
+
+.owl-carousel .item__user img {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.item__user p {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.item__user span {
+    color: #ff4f81;
+    font-size: 0.8rem;
+}
+
+.owl-theme--pink .owl-dots .owl-dot span {
+    background-color: #ff4f81;
+    opacity: 0.5;
+}
 
 
-
-
-
-
-
-
+.owl-theme--pink .owl-dots .owl-dot.active span {
+    background-color: #ff4f81;
+    opacity: 1;
+}
 
 
 
