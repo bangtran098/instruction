@@ -263,6 +263,7 @@ header {
     box-shadow: 0 0 10px #aaa;
     padding: 2rem 0.5rem;
     margin-bottom: 2rem;
+    transition: all 0.3s;
 }
 
 .offer-item i {
@@ -281,6 +282,9 @@ header {
     color: #6b6b6b;
 }
 
+.offer-item:hover {
+    background-color: #12ccc3;
+}
 
 
 
@@ -332,18 +336,6 @@ header {
     }
 
     /* EDUCATION */
-    .welcome-title h1 {
-        font-size: 25px;
-    }
-
-    .welcome-title span {
-        font-size: 15px;
-        letter-spacing: 2px;
-    }
-
-    .welcome-title__line {
-        width: 80px;
-    }
 
     .welcome-title p {
         padding: 0 5%;
