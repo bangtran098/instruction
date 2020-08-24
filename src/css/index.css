@@ -387,12 +387,48 @@ header {
     padding: 3rem 15px;
 }
 
-.event__img img {
-    width: 100%;
+.event-title h1 {
+    color: #ff4f81;
+    font-size: 40px;
+    font-weight:600;
+    letter-spacing:2px;
 }
 
+.event-title span {
+    font-size: 17px;
+    letter-spacing: 4px;
+    color:black;
+}
 
+.event-img img {
+    width: 100%;
+    border: 1px solid #dedede;
+}
 
+.event-info h2 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: black;
+}
+
+.event-info span {
+    font-size: 1em;
+    font-size: bold;
+    color: #ff4f81;
+    letter-spacing: 1px;
+}
+
+.event-info p {
+    font-size: 0.9em;
+    line-height: 1.8em;
+    color: #999;
+}
+
+.event-section__spacing  {
+    height: 3rem;
+    width: 100%;
+}
 
 
 
