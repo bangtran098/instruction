@@ -410,6 +410,7 @@ header {
     letter-spacing: 1px;
     font-weight: 600;
     color: black;
+    transition: all 0.3s;
 }
 
 .event-info span {
@@ -430,7 +431,9 @@ header {
     width: 100%;
 }
 
-
+.event-info h2:hover {
+    color: #ff4f81;
+}
 
 
 
@@ -484,6 +487,15 @@ header {
 
     .welcome-title p {
         padding: 0 5%;
+    }
+
+    /* NEWS AND EVENTS */
+    .event-img img {
+        margin-bottom: 10px;
+    }
+
+    .event-section__spacing {
+        height: 1.5rem;
     }
 }
 
