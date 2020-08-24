@@ -381,8 +381,15 @@ header {
 }
 
 
+/* NEWS & EVENTS */
 
+.event-section {
+    padding: 3rem 15px;
+}
 
+.event__img img {
+    width: 100%;
+}
 
 
 
