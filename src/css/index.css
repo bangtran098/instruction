@@ -187,12 +187,12 @@ header {
 /* OUR STAr */
 
 .star-section {
-    height: 400px;
+    min-height: 400px;
     background-image: url("../images/banner2.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    padding: 3rem 15px;
+    padding: 4rem 15px;
 }
 
 .star-title h1 {
@@ -212,6 +212,26 @@ header {
 
 .star-title .welcome-title__line  {
     background-color: white;
+}
+
+.star-detail {
+    color: white;
+    text-align: center;
+}
+
+.star-detail i {
+    font-size: 2em;
+}
+
+.star-detail h2 {
+    font-size: 25px;
+    color: #ff4f81;
+    margin-top: 25px;
+}
+
+.star-detail p {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* .star-title__line {
