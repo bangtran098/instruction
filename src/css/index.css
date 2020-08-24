@@ -128,7 +128,7 @@ header {
 /* WELCOME */
 
 .welcome-section {
-    padding: 3rem 0;
+    padding: 3rem 15px;
 }
 
 .welcome-title h1 {
@@ -202,6 +202,7 @@ header {
 
 /* CAROUSEL */
 
+/* Extra SMALL */
 @media screen and (max-width: 576px) {
     .carousel-indicators--config {
         bottom: 0%;
@@ -222,7 +223,27 @@ header {
         line-height: 1.3em;
         margin-bottom: 0px;
     }
+
+    /* EDUCATION */
+    .welcome-title h1 {
+        font-size: 25px;
+    }
+
+    .welcome-title span {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .welcome-title .welcome-title__line {
+        width: 80px;
+    }
+
+    .welcome-title p {
+        padding: 0 5%;
+    }
 }
+
+/* SM */
 
 @media screen and (min-width:575px) and (max-width: 768px) {
     .carousel-indicators--config {
@@ -243,6 +264,10 @@ header {
         letter-spacing: 3px;
         line-height: 1.3em;
         margin-bottom: 20px;
+    }
+
+    .education-course h2 {
+        font-size: 22px;
     }
 }
 
