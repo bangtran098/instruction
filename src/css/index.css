@@ -207,7 +207,6 @@ header {
     letter-spacing: 4px;
     font-weight: 500;
     color:white;
-
 }
 
 .star-title .welcome-title__line  {
@@ -285,6 +284,54 @@ header {
 .offer-item:hover {
     background-color: #12ccc3;
 }
+
+/* TESTIMONIALS */
+
+.testimonials-section {
+    padding: 3rem 15px;
+    min-height: 500px;
+    background-image: url("../images/banner3.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.testimonials-title h1 {
+    color: #ff4f81;
+    font-size: 40px;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.testimonials-title span {
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color:white;
+}
+
+.testimonials-title .welcome-title__line {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
