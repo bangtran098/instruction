@@ -475,6 +475,40 @@ header {
     margin-left: 10px;
 }
 
+.footer__form h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.footer__form input {
+    height: 40px;
+    width: 60%;
+}
+
+.btn-footer__submit {
+    background-color: #ff4f81;
+    border-radius:  0px;
+    border: none;
+    height: 40px;
+    margin-top: -3px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-footer__submit:hover {
+    background-color: #ec1995;
+}
+
+.copy-right {
+    padding: 3rem 15px;
+    background-color: #141415;
+}
+
+.copy-right span {
+    color: #ff4f81;
+}
+
 
 /* MEDIA QUERY */
 
@@ -492,6 +526,8 @@ header {
         margin-left: 10px;
     }
 }
+
+
 
 /* CAROUSEL */
 
