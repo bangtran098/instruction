@@ -31,9 +31,14 @@
     background-color: black;
 }
 
+.contact-content {
+    min-height: 300px;
+}
+
 .contact-info {
     background-color: #0e0e0e;
     padding: 2em;
+    height: 100%;
 }
 
 .contact-info h3 {
@@ -67,11 +72,10 @@
 .contact-info__detail h4 span {
     color: #cecece;
     line-height: 1.8em;
-    font-size: 0.2em;
+    font-size: 0.8em;
 }
 
 .contact-info__socials i {
-    margin-top: 2rem;
     background-color: white;
     padding: 8px 10px;
     transition: all 0.3s;
@@ -103,4 +107,42 @@
     background-color: #f26522;
     color:white;
 
+}
+
+.contact-info-image img{
+    background-image: url("../images/g11.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+}
+
+.contact-form .form-control {
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid #e4e2e2;
+    background-color: #f5f5f5;
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: none;
+    padding: 15px;
+}
+
+.contact-form .btn-contact__submit {
+    background-color: #ec1955;
+    color: white;
+    border-radius: 0px;
+    width: 100%;
+    margin: 0;
+    margin-top: -4px;
+    height: 40px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.contact-form .btn-contact__submit:hover {
+    background-color: #ff4f81;
 }
