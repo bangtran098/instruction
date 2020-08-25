@@ -525,6 +525,13 @@ header {
     .navbar-nav--menu .nav-item {
         margin-left: 10px;
     }
+
+    /* FOOTER */
+    .footer__form h2 {
+        font-size: 1.4em;
+        font-weight: 600;
+        padding-top: 5px;
+    }
 }
 
 
