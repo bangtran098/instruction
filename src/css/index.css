@@ -436,10 +436,44 @@ header {
 }
 
 
+/* FOOTER */
+
+.footer-detail {
+    padding: 3rem 15px;
+    background-color: #141415;
+}
+
+.footer-detail h2 {
+    color: #ff4f81;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-detail p {
+    color: #8b8b96;
+    font-size: 14px;
+}
+
+.footer__news p i {
+    color: #ff4f81;
+    margin-right: 10px;
+}
 
 
+.footer__contact i {
+    width: 30px;
+    height: 30px;
+    text-align: center;    
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #4b4b50;
+}
 
-
+.footer__contact span {
+    margin-left: 10px;
+}
 
 
 /* MEDIA QUERY */
